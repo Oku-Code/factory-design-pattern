@@ -1,0 +1,1 @@
+/home/oku/Documents/factory/maze_game/target/debug/maze_game: /home/oku/Documents/factory/maze_game/src/game.rs /home/oku/Documents/factory/maze_game/src/lib.rs /home/oku/Documents/factory/maze_game/src/magic_maze.rs /home/oku/Documents/factory/maze_game/src/main.rs /home/oku/Documents/factory/maze_game/src/ordinary_maze.rs
