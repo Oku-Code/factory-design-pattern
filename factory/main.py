@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class IOSButton:
     pass
 
@@ -17,3 +18,5 @@ class ButtonFactory:
 factory = ButtonFactory()
 button = factory.create_button('android')
 print(button)
+=======
+>>>>>>> 584d5e1e274925fb185be1f786f8d86f545aa3f5
