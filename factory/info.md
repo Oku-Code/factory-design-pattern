@@ -76,6 +76,11 @@ button = factory.create_button('ios')
 
 ```
 
+# Ejemplo
+
+Imaginemos que queremos una hamburguesa, pero no quieres tener que saber que ingredientes lleva la hamburguesa, por lo que solo quieres ordenarla
+podemos usar el patrón de diseño factory poder tener la función ordenar hamburguesa  
+
 ## Pros y contras del patrón
 
 - **Pros**
