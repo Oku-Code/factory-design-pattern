@@ -1,31 +1,13 @@
 # Code taken from NeetCode
 # Creamos la clase hamburgesa
 
-class CheeseBurger:
+class Burger:
     def __init__(self, ingredients, name):
         self.ingredients = ingredients
         self.name = name
 
     def display(self):
-        print(f"The Hamburger {self.name} was created: {self.ingredients}")
-
-
-class VeggieBurger:
-    def __init__(self, ingredients, name):
-        self.ingredients = ingredients
-        self.name = name
-
-    def display(self):
-        print(f"The Hamburger {self.name} was created: {self.ingredients}")
-
-
-class VeganBurger:
-    def __init__(self, ingredients, name):
-        self.ingredients = ingredients
-        self.name = name
-
-    def display(self):
-        print(f"The Hamburger {self.name} was created: {self.ingredients}")
+        print(f"The Hamburger {self.name} was created with this ingredients: {self.ingredients}")
 
 # Instaciamos la clase factory para que nos ayude
 # a ordenar la hamburgesa que queremos
@@ -35,17 +17,17 @@ class FactoryBurger:
     def cheese_burger(self):
         ingredients = ["beef", "cheese", "beef-patty"]
         name = "CheeseBurger"
-        return CheeseBurger(ingredients, name)
+        return Burger(ingredients, name)
 
     def veggie_burger(self):
         ingredients = ["bun", "tomatoe", "lettuce", "cheese", "beef-patty"]
         name = "VeggieBurger"
-        return VeggieBurger(ingredients, name)
+        return Burger(ingredients, name)
 
     def vegan_burger(self):
         ingredients = ["bun", "special-sauce", "veggie-patty"]
         name = "VeganBurger"
-        return VeganBurger(ingredients, name)
+        return Burger(ingredients, name)
 
 
 # Ahora solo le decimos que hamburguesa queremos

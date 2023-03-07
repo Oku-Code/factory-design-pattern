@@ -1,0 +1,75 @@
+#+title: Factory design pattern
+#+author: Oku
+#+description: Información acerca del patrón de diseño factory
+#+date: <2023-03-05 Sun>
+
+* Factory or Abstract Factory patrón de diseño
+
+** Presentacion
+
+Aquí se dará una explicación breve de lo es el patrón de diseño factory con todos sus items
+
+** Buscar
+
+Buscar información acerca del patrón y como aplicarlo en codigo fuente
+
+** Factory design pattern
+
+El patrón de diseño factory hace parte de uno de los modelos descritos por *the gang of four*, cuatro ingenieros en C los cuales escribieron el libro *Design Patterns - Elements of reausable Object Oriented Software* el cual describe a la prefección los modelos o patrones de diseño que permiten la resolución de problemas que se pueden enfrentar en la creación de software
+
+*** Modelos descritos:
+
+- Patrón creacional: Como los objetos son creados
+- Patrón estructural Como estos objetos se relacionan unos con otros
+- Patrón de comportamiento: Como estos objetos se comunican unos con otros
+
+El patrón de diseño factory se caracteriza por lo siguiente:
+
+#+begin_quote
+En vez de usar la palabra reservada new para la instancia de el objeto, se usa un metodo o funcion que lo haga por nosotros...
+#+end_quote
+
+*** Ejemplo
+
+Tenemos una app movíl multiplataforma que correta en IOS o Android dependiendo de los requerimientos del cliente, queremos implementar e codigo la siguiente situación:
+
+- Crear un botón para la plataforma seleccionada
+- Evitar el uso de condicionales
+- Ser mantenible si el modelo de negocio cambia en algún momento
+- Que sea de bajo acoplamiento
+
+#+begin_src python :results output
+class AndroidButton:
+    pass
+
+class IOSButton:
+    pass
+
+class ButtonFactory:
+    def create_button(self, os):
+        if os == 'ios':
+            return IOSButton
+        return AndroidButton
+
+factory = ButtonFactory()
+button = factory.create_button('android')
+print(button)
+#+end_src
+
+#+RESULTS:
+: <class '__main__.AndroidButton'>
+
+** Pros y contras del patrón
+
+1) Pros
+   - Evitamos un acoplamiento fuerte entre el creador y los productos concretos
+   - Podemos mover el código de creación de producto a un lugar del programa, haciendo que el código sea más facil de mantener
+   - Podemos incorporar nuevos tipos de productos en el programa sin descomponer el código fuente existente
+2) Contras
+   - Al momento de ir incoporando clases nuevas para otro tipo de productos, el código se vuelve complejo
+   - Las nuevas clases inplementarian subclases, que tratarán
+     de implementarse por lo que se tendrá mayor complejidad
+
+#+begin_quote
+This document was made with Org mode in Emacs
+#+end_quote

@@ -19,8 +19,9 @@ class Burger(ABC):
 
 # Concrete prodcut creator
 class BurgerCreator(Burger):
-    def burger_factory(self) -> Burger:
-        return BurgerCreator()
+    @abstractmethod
+    def burger_factory(self) -> 'ProductCheeseBurger':
+        return ProductCheeseBurger(ingredients)
 
 
 # Product
@@ -31,6 +32,12 @@ class CheeseBurger(ABC):
 
 
 class ProductCheeseBurger(Burger):
+    def __init__(self, ingredients):
+        self.ingredients = ingredients
+
+    def factory_method(self, ingredients) -> Burger:
+        return CheeseBurger(ingredients)
+
     def display(self) -> str:
         return "Result of cheese burger"
 
@@ -42,4 +49,6 @@ def client_code(creator: Burger) -> None:
 
 if __name__ == "__main__":
     print("App: Launched with the concrete product 1")
-    client_code(ProductCheeseBurger())
+    burger = Burger(["tomato", "beef"])
+    burger_creator = BurgerCreator()
+    client_code()
