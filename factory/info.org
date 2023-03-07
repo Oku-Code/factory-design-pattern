@@ -59,6 +59,7 @@ print(button)
 #+RESULTS:
 : <class '__main__.AndroidButton'>
 
+
 ** Pros y contras del patrón
 
 1) Pros
@@ -73,3 +74,10 @@ print(button)
 #+begin_quote
 This document was made with Org mode in Emacs
 #+end_quote
+
+#+begin_src rust
+println!("Hello")
+#+end_src
+
+#+RESULTS:
+: error: Could not compile `cargoxqCFn5`.

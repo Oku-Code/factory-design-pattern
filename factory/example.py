@@ -6,7 +6,7 @@ class Burger:
         self.ingredients = ingredients
         self.name = name
 
-    def display(self):
+    def information(self):
         print(f"The Hamburger {self.name} was created with this ingredients: {self.ingredients}")
 
 # Instaciamos la clase factory para que nos ayude
@@ -31,12 +31,11 @@ class FactoryBurger:
 
 
 # Ahora solo le decimos que hamburguesa queremos
-
 # Instanciamos la clase factory
 burger_factory = FactoryBurger()
 
 
 # Creamos el tipo de hamburgesa que queremos
-veggie = burger_factory.veggie_burger().display()
-cheese = burger_factory.cheese_burger().display()
-cheese = burger_factory.vegan_burger().display()
+veggie = burger_factory.veggie_burger().information()
+cheese = burger_factory.cheese_burger().information()
+cheese = burger_factory.vegan_burger().information()

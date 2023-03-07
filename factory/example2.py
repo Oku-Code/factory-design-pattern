@@ -1,54 +1,66 @@
 from abc import ABC, abstractmethod
 
-# Creators
-
-
-class Burger(ABC):
-    def __init__(self, ingredients):
-        self.ingredients = ingredients
-
-    @abstractmethod
-    def burger_factory(self, ingredients):
-        pass
-
-    def display(self) -> str:
-        burger = self.burger_factory(self.ingredients)
-        result = f"Same creator's code works with {burger.display()}"
-        return result
-
-
-# Concrete prodcut creator
-class BurgerCreator(Burger):
-    @abstractmethod
-    def burger_factory(self) -> 'ProductCheeseBurger':
-        return ProductCheeseBurger(ingredients)
-
-
-# Product
+# Interface
 class CheeseBurger(ABC):
     @abstractmethod
-    def display(self) -> str:
+    def operation(self) -> str:
         pass
 
+# Creador del producto contreto
+class CheeseCreator(CheeseBurger):
+    def information(self) -> str:
+        return f"Operation: {self.operation()}"
 
-class ProductCheeseBurger(Burger):
-    def __init__(self, ingredients):
-        self.ingredients = ingredients
+    def operation(self) -> str:
+        return 'Cheese burger created, and the price of the burger is: $25'
 
-    def factory_method(self, ingredients) -> Burger:
-        return CheeseBurger(ingredients)
+# Producto 2
 
-    def display(self) -> str:
-        return "Result of cheese burger"
+class VeggieBurger(ABC):
+    @abstractmethod
+    def operation(self) -> str:
+        pass
+
+class VeggieCreator(VeggieBurger):
+    def information(self) -> str:
+        return f"Operation: {self.operation()}"
+
+    def operation(self) -> str:
+        return 'Veggie burger created, and the price of the burger is: $15'
 
 
+# Creator
+class Burger(ABC):
+    # Crea la implementaciòn por defecto
+    @abstractmethod
+    def burger_factory(self):
+        pass
+
+    # Logìca del negocio
+    def information(self) -> str:
+        burger = self.burger_factory()
+        print(f"Price of the burger: {burger.add_price()}")
+
+
+# Creador concreto para la hamburgesa
+class BurgerCreator(Burger):
+    def burger_factory(self) -> Burger:
+        return CheeseCreator()
+
+    def burger_factory(self) -> Burger:
+        return VeggieCreator()
+
+
+# Codigo del cliente que mostrara los productos concretos
 def client_code(creator: Burger) -> None:
     print("Client: I'm aware of the creator's class, but it still works")
-    print(f"{creator.display()}", end="")
+    info = creator.information()
+    print(f"{info}", end="")
 
 
 if __name__ == "__main__":
     print("App: Launched with the concrete product 1")
-    burger = Burger(["tomato", "beef"])
-    burger_creator = BurgerCreator()
-    client_code()
+    client_code(CheeseCreator())
+    print("\n")
+    print("App: Launched with the concrete product 2")
+    client_code(VeggieCreator())
