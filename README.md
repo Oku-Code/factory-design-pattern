@@ -11,10 +11,10 @@ orientado a objetos como java, c++, python etc
 
 ## TODO
 
-- [ ] Presentación minimo de 3 diapositivas se evaluara, presentación, coherencia y manejo
+- [X] Presentación minimo de 3 diapositivas se evaluara, presentación, coherencia y manejo
 del tema
-- [ ] Citar un ejemplo para poder explicar el patrón de diseño, de tal forma que quede 
+- [X] Citar un ejemplo para poder explicar el patrón de diseño, de tal forma que quede 
 de forma explicada todo lo que se hará
-- [ ] Implementación en codigo fuente, funcional para dar a detalle el proposito de este patrón
+- [X] Implementación en codigo fuente, funcional para dar a detalle el proposito de este patrón
 
 > Aqui se encontrara todo lo relacionado con este proyecto

@@ -75,9 +75,12 @@ print(button)
 This document was made with Org mode in Emacs
 #+end_quote
 
+<<<<<<< HEAD
+=======
 #+begin_src rust
 println!("Hello")
 #+end_src
 
 #+RESULTS:
 : error: Could not compile `cargoxqCFn5`.
+>>>>>>> 8687547 (Concrete example done)

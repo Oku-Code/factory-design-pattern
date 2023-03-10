@@ -17,4 +17,5 @@ class ButtonFactory:
 factory = ButtonFactory()
 button = factory.create_button('android')
 button = factory.create_button("ios")
+button = factory.create_button("android")
 print(button)
