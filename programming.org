@@ -1,0 +1,116 @@
+#+TITLE: Presupuestos y costos
+#+AUTHOR: Juan David Rodas Barco
+#+DESCRIPTION: Haciendo la descripción de los costos para una simple UI
+#+DATE: <2023-03-14 Tue>
+
+* Ingeniería del software
+
+Buscando presupuestos, costos y tiempos en la ejecución un proyecto de software
+
+** Proyecto
+
+Se quiere tener un sistema en el cual se necesite hacer el pago de la nomina de una empresa, este software se encargara de generar el recibo de pago con toda la información necesaria para su ejecucion.
+
+Este debe cumplir con los siguientes requerimientos:
+
+1) Frontend and Backend, cuanto cuesta en terminos de tiempo y dinero
+2) Generar el costo de la implementación
+3) Generar el recibo de pago con toda la información
+4) Mostrar el valor de la nomina
+5) Tiempo de implementación
+
+*** Frontend and backend, cuanto cuesta
+
+La hora de un desarrollador fullstack en colombia es de *5 dolares*, lo que se convertirian en 30 dolares semanales, que al mes seriàn *927 dolares*.
+
+**** Nomina
+
+Empecemos por el concepto de nomina, este concepto es la forma de como representar la liquidaciòn y el pago de los salarios, reflejando las remuneraciones que le corresponden.
+
+#+begin_quote
+No contaremos con disposiciones legales como retenciones y seguridad para el calculo
+#+end_quote
+
+***** Como se hace una nomina
+
+De debe tener los siguientes aspectos
+
+1) Còdigo de cuenta
+2) Domicilio
+3) Empresa, razòn social
+4) Grupo de cotizaciòn
+5) Grupo profesional
+6) Nit
+7) Nit Trabajador
+8) Nùmero seguridad social
+9) Trabajor - su nombre
+
+***** Devengos de la nòmina
+
+1) Salario base
+2) Complemento salarial
+3) Retribuciòn por horas extras
+4) Retribuciòn por horas complementarias
+5) Pagas extraordinarias
+6) Salario en especie
+   
+   
+**** Cuanto tiempo cuesta implementar el proyecto
+
+Tener en cosideraciòn lo siguiente
+
+- Arquitectura del sistema
+- Base de datos
+- Plataforma de desarrollo para el backend
+- Plataforma de desarrollo para el frontend
+- Total de nùmero de empleados
+- Total nùmero de desarrolladores e ingenieros a contratar
+
+***** Arquitectura del sistema
+
+Al ser solo un generador de nomina para una cantidad de n empleados se necesitarà calcular el *salario* de manera eficiente, aparte de eso se debe calcular los devengos de la nòmina.
+
+***** Bases de datos
+
+Las soluciones que ofrecen en cuanto a bases de datos son sufìcientes para almacenar los datos, desde bases de datos relacionales, _que serìa lo màs optimo_, hasta las no relacionales...
+
+***** Platafoma para el desarrollo backend
+
+Python, rust y otros lenguajes de programaciòn brindan alternativas para el desarrollo backend por lo que no nos preocuparemos por cual lenguage es el màs propicio parà el trabajo...
+
+***** Plataforma para el desarrollo frontend
+
+Pues desde html, js, css, pasando por frameworks como react, angular, vue, stelve entre otros como flask, django, yew, rocket; No tendremos en cuenta la plataforma por ahora
+
+***** Total de nùmero de ingenieros y desarrolladores a contratar
+
+El proyecto es de pequeña embergadura para una microempresa entonces siguiendo el orden de ideas estarìa compuesto por lo sigiente:
+
+1) Ingeniero de software 1
+2) Grupo de desarrolladores fullstack 2
+   
+
+**** Balance preliminar
+
+| Nùmero de personas | Cargo                   | Valor de Hora |
+|                  2 | Desarrollador Fullstack |             8 |
+|                  1 | Ingeniero de software   |            10 |
+
+
+**** Salarios base - _en colombia_
+
+| Cargo                   | Salario Mensual | Tiempo | Tiempo / Salario |
+| Desarrollador Fullstack | 8_000_000       |      5 | 40_000_000       |
+| Ingenieros de software  | 7_000_000       |      5 | 35_000_000       |
+
+
+***** Tiempo estimado 5 meses
+
+
+**** Presupuesto final
+
+#+begin_quote
+Aquì solo estamos contando con el presupuesto solo para el personal, no se tiene en cuenta el presupuesto para la arquitectura, implementaciòn del sistema, plataforma de despliegue entre otros factores importantes
+#+end_quote
+
+******* Total: COP: 75_000_000 ~ USD: 15_000
