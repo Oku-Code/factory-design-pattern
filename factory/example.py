@@ -29,13 +29,19 @@ class FactoryBurger:
         name = "VeganBurger"
         return Burger(ingredients, name)
 
+    def hot_dog(self):
+        ingredients = ["bread", "sausages", "cheese"]
+        name = "hot dog"
+        return Burger(ingredients, name)
+
 
 # Ahora solo le decimos que hamburguesa queremos
 # Instanciamos la clase factory
 burger_factory = FactoryBurger()
 
-
 # Creamos el tipo de hamburgesa que queremos
 veggie = burger_factory.veggie_burger().information()
 cheese = burger_factory.cheese_burger().information()
-cheese = burger_factory.vegan_burger().information()
+cheese = burger_factory.cheese_burger().information()
+veggie = burger_factory.cheese_burger().information()
+

@@ -31,23 +31,6 @@ Ejemplo
 - Tenemos una app movíl multiplataforma que correra en IOS o android dependiendo de los requerimientos del cliente
 - Queremos implementar un botón básico para la plataforma pero para esto debemos usar condicionales para poder determinar que botón debemos crear 
 
-```
-class AndroidButton:
-    pass
-    
-class IOSButton:
-    pass
-
-## Creacion de un botón para la plataforma especificada 
-
-os_platform = input("Please especify the os of your choice: ")
-
-## Creación de un botón e instaciamiento de la clase
-
-button = IOSButton() if os_platform == 'ios' else AndroidButton
-button2 = IOSButton() if os_platform == 'ios' else AndroidButton
-```
-
 A largo este codigo no es mantenible, ya que el estar validando la condicional para crear
 un botón a largo plazo se vuelve repetitivo
 
