@@ -114,3 +114,13 @@ Aquì solo estamos contando con el presupuesto solo para el personal, no se tiene
 #+end_quote
 
 ******* Total: COP: 75_000_000 ~ USD: 15_000
+
+** Pautas para tener en cuenta
+
+Lo que no se tuvo en cuenta para el ejercicio es lo siguiente:
+
+1) Iva a la dian
+2) Recurso humano: diseñador, recurso humano para tratar con los clientes, una persona de QA...
+3) Retención por parte del cliente
+4) Seguridad social
+5) Poliza de cumplimiento
