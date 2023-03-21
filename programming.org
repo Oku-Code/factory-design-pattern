@@ -197,3 +197,61 @@ Aquí describiremos los principios en los que se fundamenta el manifiesto agíl:
 10) Los procesos ágiles promueven el desarrollo sostenido. Los patrocinadores, desarrolladores y usuarios deben mantener un ritmo constante de forma indefinida
 11) Nuestra principal prioridad es satisfacer al cliente a través de la entrega temprana y continua de software de valor
 12) Son bienvenidos los requisitos cambiantes, incluso si llegan tarde al desarrollo. los procesos ágiles se doblegan al cambio como ventaja competitiva para el cliente
+    
+
+** Origen de scrum
+
+Gracias a Hirotaka Takeuchi y Ikujiro Nonaka, tenemos este marco de trabajo al estar observando como compañias estaban trabajando de forma conjunta...
+
+Es un marco de trabajo caracterizado por:
+
+- Adoptar una estrategia de desarrollo incremental, en lugar de la planificación y ejecución completa del producto
+- Basar la calidad del resultado más en el conocimiento tactico de las personas en equipos auto organizados, que en la calidad de los procesos empleados
+- Soplamiento de las diferentes fases del desarrollo, en lugar de realizarlas una tras otra en un ciclo secuencial o de cascada
+
+** Scrum Técnico y scrum avanzado
+
+*** Técnico
+
+Roles:
+
+- Dueño de producto
+- Equipo de desarrollo
+- Scrum Master
+
+Eventos:
+
+- Sprint
+- Reunión de planificación
+- Scrum Diario
+- Revisión de sprint
+- Retrospectiva de sprint
+
+Artefactos:
+
+- Pila de product
+- Pila de sprint
+- Incremento
+
+*** Avanzado
+
+Concepto original de scrum
+
+Aplicación de valores ágiles:
+
+- Cambio > Planificación
+- Colaboración > Negociación
+- Personas > Procesos
+- Resultado > Documentación
+
+Para avanzar en scrum
+
+- Incertidumbre
+- Auto organización
+- Fases de desarrollo solapadas
+- Multiaprendizaje
+- Control sutil
+- Difusion del conocimiento
+
+
+
