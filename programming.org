@@ -124,3 +124,76 @@ Lo que no se tuvo en cuenta para el ejercicio es lo siguiente:
 3) Retención por parte del cliente
 4) Seguridad social
 5) Poliza de cumplimiento
+
+   
+* Scrum - marco de trabajo
+
+El marco de trabajo *scrum* es una herramienta que se puede adaptar a las necesidades de los desarrolladores, los cuales los adpaten para que puedan trabajar de manera más efectiva.
+
+** De donde nace el marco de trabajo scrum
+
+Lo que decia, el programador de la india:
+
+- /Please, READ THE DOCS./
+
+** Para que sirven las metodologías agíles
+
+Darle valor a procesos en los cuales no se generan
+
+- La mejor forma de dar aprobación al software es de que funcione
+- La piramide de calidad me mide los errores, lo que es importante en está piramide es ver cuantos de lo errores reportados se ven reflejados por el cliente -> *triangulo del QA*
+- Lo mas importante en este marco de trabajo siempre será *entrega de valor*.
+
+** Pilares de scrum
+
+1. Adaptabilidad: Estar en constante busqueda en la optimización de lo que el producto requiera en el momento
+2. Inspección: Estar atentos a los cambios y pendientes del proyecto y planear siempre de forma ordenada, /no confundir con seguimiento/...
+3. Transparencia: Dar claridad de la información en todo momento ya que es imprensindible para el proyecto
+
+**** PSP - Personal Software Process
+
+Aprender a medir su productividad, de forma periodica como tiempo se trabaja, cuanto tiempo se toma en descansos entre otros factores...
+
+**** TSP - Team Software Process
+
+Este irá enfocado a medir la efectividad del equipo de trabajo.
+
+
+** Enfoque en el cliente
+
+Siempre tener presente las necesidades del cliente, si se quiere tener un detalle con el al momento de cumplir los requerimientos se convierte en un valor agregado
+
+** Sentimiento de pertenencia
+
+Gente regular, lo que se refiere es que sea una persona comprometida y disciplinada...
+
+
+* Pautas para el manifiesto agíl
+
+Aquí se valora mucho los siguientes principios:
+
+1) A los individuos y ss interacción por encima de los procesos y las herramientas
+2) El software que funciona, por encima de la documentación exhaustiva
+3) La colaboración con el cliente, por encima de la negociación contractual
+4) La respuesta al cambio, por encima del seguimiento de un plan
+
+** La colaboración con el cliente, por encima de la negociación contractual
+
+Esto es lo mas interesante de l manifiesto ya que la relación continua con el cliente brinda formas sencillas de comunicar ideas, participando y aportando de manera efectiva lo que se necesita en el producto final, más que una contractual delimitación de responsabilidades
+
+**** Los doce principios del manifiesto agíl
+
+Aquí describiremos los principios en los que se fundamenta el manifiesto agíl:
+
+1) Construcción de proyectos en torno a individuos motivados, dándoles la oportunidad y el respaldo que necesitan y procurándoles confianza para que realicen la tarea
+2) El software que funciona es la principal medida de progreso
+3) En intervalos regulares, el equipo reflexiona sobre la foma de ser más efectivo y ajusta su conducta en consecuencia.
+4) Entregar con frecuencia software que funcione, en periodos de un par de semanas hasta un par de meses, con preferencia en los periodos breves
+5) La atención continua a la excelencia técnica enaltece la agilidad
+6) La forma más eficiente y efectiva de comunicar información de ida y vuelta dentro de un equipo de desarrollo es mediante la conversación cara a cara
+7) La simplicidad como arte de maximizar la cantidad de trabajo que no se hace, es esencial
+8) Las mejores arquitecturas, requisitos y diseños emergen de equipos que se auto organizan
+9) Las personas del negocio y los desarrolladores deben trabajar juntos de forma cotidiana a traves del proyecto
+10) Los procesos ágiles promueven el desarrollo sostenido. Los patrocinadores, desarrolladores y usuarios deben mantener un ritmo constante de forma indefinida
+11) Nuestra principal prioridad es satisfacer al cliente a través de la entrega temprana y continua de software de valor
+12) Son bienvenidos los requisitos cambiantes, incluso si llegan tarde al desarrollo. los procesos ágiles se doblegan al cambio como ventaja competitiva para el cliente
