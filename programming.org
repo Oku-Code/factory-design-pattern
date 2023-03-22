@@ -90,14 +90,14 @@ El proyecto es de pequeña embergadura para una microempresa entonces siguiendo e
 2) Grupo de desarrolladores fullstack 2
    
 
-**** Balance preliminar
+*** Balance preliminar
 
 | Nùmero de personas | Cargo                   | Valor de Hora |
 |                  2 | Desarrollador Fullstack |             8 |
 |                  1 | Ingeniero de software   |            10 |
 
 
-**** Salarios base - _en colombia_
+*** Salarios base - _en colombia_
 
 | Cargo                   | Salario Mensual | Tiempo | Tiempo / Salario |
 | Desarrollador Fullstack | 8_000_000       |      5 | 40_000_000       |
@@ -208,6 +208,7 @@ Es un marco de trabajo caracterizado por:
 - Adoptar una estrategia de desarrollo incremental, en lugar de la planificación y ejecución completa del producto
 - Basar la calidad del resultado más en el conocimiento tactico de las personas en equipos auto organizados, que en la calidad de los procesos empleados
 - Soplamiento de las diferentes fases del desarrollo, en lugar de realizarlas una tras otra en un ciclo secuencial o de cascada
+  
 
 ** Scrum Técnico y scrum avanzado
 
@@ -253,5 +254,73 @@ Para avanzar en scrum
 - Control sutil
 - Difusion del conocimiento
 
+  
+** SCRUM <2023-03-21 Tue 19:21>
+
+Frase de hoy
+
+#+begin_quote
+/Yo trabajo para vivir, no vivo para trabajar/.
+#+end_quote
+
+Por muchos años la metodología cascada a sido bastante importante, pero a requerido bastante tiempo, perdiendo tiempo de personas involucradas, pero por ese tiempo se han hecho cosas interesantes, por lo tanto scrum viene a suplir esa ideologia, pero no significa que está este en decaida, debemos tenerla en cuenta.
+
+*** Incremento
+
+Fase en la cual el projecto va generando mejoras paulatinas para asegurar las fases del proyecto 
 
 
+*** Product Backlog
+
+Listado de requerimientos de lo que se quiere para el producto, ideas
+
+- Clientes
+- Ejecutivos
+- Miembros del equipo
+
+**** Sandbox o icebox
+
+Lugar donde se guarde los requerimientos no se necesiten
+
+
+**** Modelo INVEST
+
+1) Indenpendiente: Que todos sus componentes sean independientes del requirimientos
+2) Negociación: Que este abierto a negociar caracteristicas para poder ser debatidas entre el equipo de desarrollo y el product owner
+3) Valuable: Que agrege la historia de usuario que tenga valor al cliente
+4) Estimable: Dar un tiempo estimado o esfuerzo que depende de la historia del cliente
+5) Small - Depende: Definir espacios que se hayan definido para entregarle al cliente
+6) Testeable: Que se pueda probar de forma correcta para asegurar la historia de usuario
+
+   
+*** Sprint backlog
+
+Requerimientos que provienen del product backlog y en los que están trabajando el equipo de desarrollo
+
+
+*** Elementos comúnes
+
+**** Product owner
+
+- Es el encargado de guiar el proyecto
+- Controla que entren las caracteristicas
+- Gestionar los recursos economicos
+
+**** Scrum Master
+
+- Controla como se encuentra el proyecto, y como va progresando
+- Controla todos los miembors del equipo tengan las herramientas necesarias para hacer su trabajo
+- Programa reuniones
+- Monitoreo el trabajo que se está haciendo 
+
+**** Developers y Testers
+
+- Crean el producto
+- Prueban el producto
+
+**** Sprint
+
+Tiempo que se determina para implementar el sprint backlog, puede tomar el tiempo de *uno a cuatro semanas*
+
+- Una semana: Equipos principiantes los cuales necesitan entrar a saber como manejar el marco de trabajo
+- Del mismo tamaño: Que cada equipo tiene su tiempo en cuanto a trabajar los sprints
