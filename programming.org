@@ -235,6 +235,81 @@ Artefactos:
 - Pila de sprint
 - Incremento
 
+**** Sprint
+
+Ciclo o iteraciòn de trabajo que produce una parte del producto terminada y funcionalmente operativa
+
+1) *Incremento iterativo*: Basado en pulsos de tiempo prefijado
+2) *Incremento continuo*: Basado en el mantenimiento de un flujo continuo, no marcado por pulsos o sprints
+
+   
+**** Artefactos
+
+1) Pila de producto: Lista de requisitos del usuario, formada par la lista de funicionalidades o "Historias de usuario"
+2) Pila del print: Lista de los trabajos que debe realizar el equipo durante el sprint para generar el incremento previsto, formada por tereas en las que descomponen las historias de usuario que se van a llevar a cabo en el sprint.
+3) Incremento: Resultado de cada sprint
+
+   
+**** Preparaciòn de la pila de producto
+
+Se le denomina preparaciòn a las actividades de priorizaciòn, detalle y estamaciòn de los elementos que la componen.
+
+**** Ejemplo de formato de pila de producto
+
+| id | prioridad | descripciòn                          | Est |
+|  1 | Muy alta  | Plataforma tecnològica               |  30 |
+|  2 | Muy alta  | Interfaz de usuario                  |  40 |
+|  3 | Muy alta  | Un usuario se registra en el sistema |  40 |
+|  z | xxxx      | xxx                                  | xx  |
+
+**** Condiciones para las pilas de producto
+
+#+CAPTION: Pila de trabajo scrum ejemplo
+[[./assets/pila.png]]
+
+1) Cubre todas las tareas identificadas por el equipo
+2) Es visible para todo el equipo
+3) Las tareas demasiado grandes se deben descomponer en tareas màs pequeñas
+4) Realizada de forma conjunta por todos los miembros del equipo
+5) Sòlo el equipo la puede modificar durante el sprint
+
+**** Incremento
+
+Es la parte la parte del producto realizada en un sprint potencialmente entregable
+
+**** Eventos
+
+A continuaciòn se describen los eventos en el transcurso del proyecto bajo el marco de trabajo scrum
+
+1) Sprint: Nombre que recibe cada iteraciòn del desarrollo
+2) Reuniòn de planificaciòn del sprint: reuniòn que marca el inicio de cada sprint en la que se determina cual es el objetivo del sprint
+3) Scrum diario: breve reuniòn diaria del equipo, en la que el miembro responde a tres cuestiones:
+   - Trabajo realizado el dìa anterior
+   - El que tiene previsto realizar
+   - Cosas que se puede necesitar o impedimentos a eliminar
+4) Revisiòn del sprint: anàlisis e inspecciòn del requerimiento generado
+5) Retrospectiva del sprint: Revisiòn de lo sucedido en el sprint
+
+**** Formato de la reuniòn de planificaciòn
+
+- Descripciòn: Reuniòn que marca el inicio del sprint
+- Duraciòn maxima: Un dìa
+- Asistentes: Propietario del producto, equipo de desarrollo y scrum master
+- Pueden Asistir: Reuniòn abierta
+- Bloques: 2
+  - Bloque 1: Inicio de la reunion
+  - Bloque 2: Break de 15 mins
+
+***** Funciones del scrum master
+
+1) Realizar las reuniones de planificaciòn antes de cada sprint
+2) Asegurarse de que cuente con la pila de producto preparada por el propietario
+3) Ayuda a mantener el dialogo entre el propietario y el equipo
+4) Asegurar que se llegue a un acuerdo
+5) Ayudar a comprender la visiòn de negocio y necesidades del cliente
+6) Asegurar que el equipo ha realizado una descomposiciòn y estimaciòn del trabajo realistas
+7) Asegurar que al final de la reuniòn esten objetivamente determinados
+
 *** Avanzado
 
 Concepto original de scrum
@@ -255,7 +330,6 @@ Para avanzar en scrum
 - Control sutil
 - Difusion del conocimiento
 
-  
 ** SCRUM <2023-03-21 Tue 19:21>
 
 Frase de hoy
@@ -325,3 +399,4 @@ Tiempo que se determina para implementar el sprint backlog, puede tomar el tiemp
 
 - Una semana: Equipos principiantes los cuales necesitan entrar a saber como manejar el marco de trabajo
 - Del mismo tamaño: Que cada equipo tiene su tiempo en cuanto a trabajar los sprints
+
