@@ -104,7 +104,7 @@ El proyecto es de pequeña embergadura para una microempresa entonces siguiendo e
 | Ingenieros de software  | 7_000_000       |      5 | 35_000_000       |
 
 
-***** Tiempo estimado 5 meses
+Tiempo estimado 5 meses
 
 
 **** Presupuesto final
@@ -113,7 +113,9 @@ El proyecto es de pequeña embergadura para una microempresa entonces siguiendo e
 Aquì solo estamos contando con el presupuesto solo para el personal, no se tiene en cuenta el presupuesto para la arquitectura, implementaciòn del sistema, plataforma de despliegue entre otros factores importantes
 #+end_quote
 
-******* Total: COP: 75_000_000 ~ USD: 15_000
+Total: COP: 75_000_000 ~ USD: 15_000
+
+
 
 ** Pautas para tener en cuenta
 
@@ -157,7 +159,6 @@ Aprender a medir su productividad, de forma periodica como tiempo se trabaja, cu
 **** TSP - Team Software Process
 
 Este irá enfocado a medir la efectividad del equipo de trabajo.
-
 
 ** Enfoque en el cliente
 
