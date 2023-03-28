@@ -302,6 +302,8 @@ A continuaciòn se describen los eventos en el transcurso del proyecto bajo el ma
 
 ***** Funciones del scrum master
 
+Es el responsable del cumplimiento de las reglas de un marco de scrum tècnico, asegurando que se entienden en la organizaciòn, y se trabaja conforme a ellas.
+
 1) Realizar las reuniones de planificaciòn antes de cada sprint
 2) Asegurarse de que cuente con la pila de producto preparada por el propietario
 3) Ayuda a mantener el dialogo entre el propietario y el equipo
@@ -309,6 +311,31 @@ A continuaciòn se describen los eventos en el transcurso del proyecto bajo el ma
 5) Ayudar a comprender la visiòn de negocio y necesidades del cliente
 6) Asegurar que el equipo ha realizado una descomposiciòn y estimaciòn del trabajo realistas
 7) Asegurar que al final de la reuniòn esten objetivamente determinados
+
+   
+***** Product owner
+
+El product owner debe tener las siguientes caracteristicas en orden de hacer su labor de la mejor manera posible:
+
+1) Conocer perfectamente el entorno de negocio del cliente
+2) Visiòn del producto
+3) Atribuciones y conocimiento del plan del producto suficiente
+4) Retroinformaciòn del entorno de negocio
+
+Por otro lado el toma las desiciones con respecto al producto que se esta realizado en ultima instancia, conoce el plàn de producto y tiene la visiòn de como quedarà al estar completo
+
+**** Valores y principios de scrum
+
+1) Respeto entre las personas
+2) Responsabilidad y autodisciplina
+3) Valor para el cliente
+4) Compromiso
+
+**** Principios que rigen su forma de trabajo:
+
+1) Delegaciòn de atribuciones
+2) Transparencia
+3) Inspecciòn y adaptaciòn
 
 *** Avanzado
 
@@ -330,6 +357,7 @@ Para avanzar en scrum
 - Control sutil
 - Difusion del conocimiento
 
+  
 ** SCRUM <2023-03-21 Tue 19:21>
 
 Frase de hoy
