@@ -356,7 +356,7 @@ Para avanzar en scrum
 - Multiaprendizaje
 - Control sutil
 - Difusion del conocimiento
-
+  
   
 ** SCRUM <2023-03-21 Tue 19:21>
 
@@ -385,8 +385,7 @@ Listado de requerimientos de lo que se quiere para el producto, ideas
 
 Lugar donde se guarde los requerimientos no se necesiten
 
-
-**** Modelo INVEST
+**** Modelo invest
 
 1) Indenpendiente: Que todos sus componentes sean independientes del requirimientos
 2) Negociación: Que este abierto a negociar caracteristicas para poder ser debatidas entre el equipo de desarrollo y el product owner
@@ -426,5 +425,65 @@ Requerimientos que provienen del product backlog y en los que están trabajando e
 Tiempo que se determina para implementar el sprint backlog, puede tomar el tiempo de *uno a cuatro semanas*
 
 - Una semana: Equipos principiantes los cuales necesitan entrar a saber como manejar el marco de trabajo
-- Del mismo tamaño: Que cada equipo tiene su tiempo en cuanto a trabajar los sprints
+- Del mismo tamaño: Que cada equipo tiene su tiempo en cuanto a trabajar lo
+
+
+** SCRUM SESSION TWO <2023-03-28 Tue 18:33>
+
+Para esta sesión nos pondremos en el rol del *product owner*, tomaremos los requerimientos del profesor para tener un backlog del software
+
+Para esto necesitaremos:
+
+1. JIRA -> Para organizar los formatos de pila de productos
+2. SGC
+3. Ciclo PHVA -> Planear, Hacer, Verificar, Actuar
+
+*** Requerimientos
+
+Sistema de parqueaderos para la universidad, con rfid o otro sistema de parqueadero, el ejemplo más claro es el sistema de parqueaderos del centro comercial Mall Plaza, Identificación por medio de el carnet y reserva el puesto, mostrar el lugar del carro donde se encuentra, mostrar los carros de acuerdo a los requerimientos, al presentarse a una eventualidad con uno de los carros se puede avisar al dueño para que lo solucione y atienda el problema, verificar el ingreso de las personas que entran en la universidad, debe generar el costo apartir del vehiculo al cual se entra, reporte de alarmas de acuerdo a las caracteristicas de lo que se esta pidiendo, dar saber al dueño por medio de una alarma lo que esta pasando al vehiculo y se dirija al lugar del carro, generar reportes para tener información de la persona que esta viniedo a la universidad.
+
+Centralizar la información de manera efectiva para la posterior generación de los datos que se necesitan.
+
+**** Registrar vehiculo
+
+Color, placa.
+
+**** Para asignar las historias de usuario
+
+Se debe usar tallas de camisa, nivel de incertidumbre:
+
+- Registrar vehiculo -> *S*, Baja, 2
+- Usar serie de fibbonacci para tener un margen de complejidad
+
+  
+*** Product backlog
+
+Aquí haré constancia de lo que debe de llevar el product backlog, por lo tanto hare una tabla describiendo los requerimientos y las historias del cliente de manera clara.
+
+Serie fibonnacci: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89... 
+
+| Tallas de camisa | Nivel de incertidumbre |
+| S                |                      1 |
+| M                |                      2 |
+| L                |                      5 |
+| XL               |                      8 |
+
+
+*** Requerimientos por parte del cliente
+
+1) Sistema de parqueaderos: implementación con rfid, codígo qr u otro sistema
+2) Sistema de indentificación y reserva de puestos: por medio del carnet estudiantil, miembro del cuerpo estudiantil o administrativo
+3) Sistema de busqueda de vehiculos: Considerar la siguiente información
+   - Nombre del propietario
+   - Identificación del propietario
+   - Dependencia
+   - Placa del vehiculo
+   - Puesto reservado para estacionamiento del vehiculo
+   - Color del vehiculo
+4) Sistema de monitoreo y control vehicular: Tener medios de comunicación para controlar como se gestiona el parqueo de los vehiculos dentro de las instalaciones de la universidad, generación de reportes de vehiculos que entrán y salen de las instalaciones, control de asistencias para los estudiantes por medio del sistema de identificación -> tomar en cuenta si viene a pie se debe de notificar, o uso de transporte publico
+5) Sistema de notificación: Notificar el estado del vehiculo, al presentarse una anormalidad avisar al dueño con la información suministrada anteriormente
+6) Sistema de generación de costos: Considerar la siguiente informacion
+   - Precio por hora de uso del sitio de parqueo
+   - Precio por tiempo de uso del vehiculo
+   - Costo por tipo de vehiculo: moto, carro, camioneta entre otros
 
