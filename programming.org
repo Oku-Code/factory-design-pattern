@@ -471,19 +471,51 @@ Serie fibonnacci: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89...
 
 *** Requerimientos por parte del cliente
 
-1) Sistema de parqueaderos: implementación con rfid, codígo qr u otro sistema
-2) Sistema de indentificación y reserva de puestos: por medio del carnet estudiantil, miembro del cuerpo estudiantil o administrativo
-3) Sistema de busqueda de vehiculos: Considerar la siguiente información
-   - Nombre del propietario
-   - Identificación del propietario
+1) Sistema de busqueda de vehiculos: Considerar la siguiente información
+   - Color del vehiculo
    - Dependencia
+   - Identificación del propietario
+   - Nombre del propietario
    - Placa del vehiculo
    - Puesto reservado para estacionamiento del vehiculo
-   - Color del vehiculo
-4) Sistema de monitoreo y control vehicular: Tener medios de comunicación para controlar como se gestiona el parqueo de los vehiculos dentro de las instalaciones de la universidad, generación de reportes de vehiculos que entrán y salen de las instalaciones, control de asistencias para los estudiantes por medio del sistema de identificación -> tomar en cuenta si viene a pie se debe de notificar, o uso de transporte publico
-5) Sistema de notificación: Notificar el estado del vehiculo, al presentarse una anormalidad avisar al dueño con la información suministrada anteriormente
-6) Sistema de generación de costos: Considerar la siguiente informacion
+2) Sistema de generación de costos: Considerar la siguiente informacion
+   - Costo por tipo de vehiculo: moto, carro, camioneta entre otros
    - Precio por hora de uso del sitio de parqueo
    - Precio por tiempo de uso del vehiculo
-   - Costo por tipo de vehiculo: moto, carro, camioneta entre otros
+3) Sistema de indentificación y reserva de puestos: por medio del carnet estudiantil, miembro del cuerpo estudiantil o administrativo
+4) Sistema de monitoreo y control vehicular: Tener medios de comunicación para controlar como se gestiona el parqueo de los vehiculos dentro de las instalaciones de la universidad, generación de reportes de vehiculos que entrán y salen de las instalaciones, control de asistencias para los estudiantes por medio del sistema de identificación -> tomar en cuenta si viene a pie se debe de notificar, o uso de transporte publico
+5) Sistema de notificación: Notificar el estado del vehiculo, al presentarse una anormalidad avisar al dueño con la información suministrada anteriormente
+6) Sistema de parqueaderos: implementación con rfid, codígo qr u otro sistema
+     
+*** Para que una historia de usuario sea aceptada
+
+1) Que se debe hacer
+2) Como se debe de hacer
+3) Para que se debe de hacer
+4) Criterios de aceptación: los requisitos minimos para ser aceptado dentro del product backlog
+
+** SCRUM SESSION THREE <2023-04-18 Tue>
+
+Ahora se tomara los requerimientos por parte del product owner para tener una perspectiva más clara de que es lo que queremos hacer, como, que aporte de valor se le dará por parte de nosotros el equipo de scrum entre otros tantos puntos a tratar
+
+*** Otros detalles a tener en cuenta para el sistema
+
+1) Pico y placa: si el usuario presenta pico y placa, como se debe aplicar la multa si es particular o si es estudiante
+2) Numero de personas dentro de un carro: quien generaria el pago del espacio de parqueo teniendo en cuenta los siguientes escenarios:
+
+   | Cantidad estudiantes | Cantidad visitantes |
+   |                    4 |                   0 |
+   |                    3 |                   1 |
+   |                    2 |                   2 |
+   |                    3 |                   1 |
+   |                    0 |                   4 |
+
+   En el caso de ser un carro, en el caso de ser moto:
+
+   | Cantidad estudiantes | Cantidad visitantes |
+   |                    1 |                   1 |
+   |                    0 |                   2 |
+   |                    2 |                   0 |
+
+ 3) 
 
